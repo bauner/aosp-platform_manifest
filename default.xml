@@ -5,7 +5,11 @@
            fetch="https://android.googlesource.com/" />
            
   <remote name="bauner"
-           fetch="https://github.com/bauner/" />          
+           fetch="https://github.com/bauner/" />
+           
+
+  <remote name="linaro-other"
+           fetch="https://git.linaro.org/" />           
            
   <default revision="refs/tags/android-4.4.4_r2.0.1"
            remote="aosp"
@@ -143,7 +147,7 @@
   <project path="external/jhead" name="platform/external/jhead" groups="pdk" />
   <project path="external/jmdns" name="platform/external/jmdns" />
   <project path="external/jmonkeyengine" name="platform/external/jmonkeyengine" />
-  <project path="external/jpeg" name="platform/external/jpeg" groups="pdk" />
+  <project path="external/jpeg" name="people/ragesh.radhakrishnan/libjpeg-turbo" remote="linaro-other" revision="libjpeg-turbo" />
   <project path="external/jsilver" name="platform/external/jsilver" />
   <project path="external/jsr305" name="platform/external/jsr305" />
   <project path="external/junit" name="platform/external/junit" />
