@@ -456,6 +456,6 @@
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
-  <project path="vendor/aokp" name="aosp-vendor_aokp" remote="bauner" revision="android-4.4.4_r2.0.1" />
+  <project path="vendor/bauner" name="aosp-vendor_bauner" remote="bauner" revision="android-4.4.4_r2.0.1" />
 
 </manifest>
